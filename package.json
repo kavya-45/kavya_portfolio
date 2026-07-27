@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://kavya-45.github.io/portfolio",
+  "homepage": "https://kavya-45.github.io/kavya_portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
