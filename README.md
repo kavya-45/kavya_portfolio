@@ -255,5 +255,12 @@ https://<your-username>.github.io/<your-repository>/
 If you found this project helpful, consider giving it a on GitHub.
 
 ---
+## Acknowledgements
 
+This portfolio is based on the portfolio template created by **Sadhan Shetty**.
+
+Original GitHub:
+https://github.com/sadhanshetty
+
+The project has been customized and extended with my own content, projects, styling, and deployment configuration.
 © 2026 Kavya. All rights reserved.
