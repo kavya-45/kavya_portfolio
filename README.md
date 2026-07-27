@@ -79,19 +79,12 @@ cd kavya_portfolio
 
 ## Step 2: Create Your Own GitHub Repository
 
-This repository powers **my live portfolio website**.
+Create a new repository under your GitHub account (for example, `my-portfolio`).
 
-To avoid accidentally pushing changes to my repository, create a **new repository** under your own GitHub account.
-
-Remove the existing remote:
+Once the repository is created, connect your local project to your new GitHub repository:
 
 ```bash
 git remote remove origin
-```
-
-Add your own repository:
-
-```bash
 git remote add origin https://github.com/<your-username>/<your-repository>.git
 ```
 
@@ -101,13 +94,22 @@ Example:
 git remote add origin https://github.com/john/my-portfolio.git
 ```
 
-Verify the remote:
+Verify that the remote repository has been updated correctly:
 
 ```bash
 git remote -v
 ```
 
-Push the project to your repository:
+You should see your own GitHub username and repository name in the output.
+
+Example:
+
+```text
+origin  https://github.com/john/my-portfolio.git (fetch)
+origin  https://github.com/john/my-portfolio.git (push)
+```
+
+If everything looks correct, push the project to your repository:
 
 ```bash
 git push -u origin main
